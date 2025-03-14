@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour
 {
-    // 인스펙터에서 조정할 수 있도록 public 또는 SerializeField 사용
     [SerializeField]
-    private float attackSpeed = 1f; // 프레임 간 간격
+    private float attackSpeed = 1f; // 공격속도 배수
 
     private Animator animator;
 
